@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3VC-dZ-VGS">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="J0z-h7-ZZm">
+            <objects>
+                <tabBarController id="3VC-dZ-VGS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nfD-U4-KbG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1nK-rI-bNY" kind="relationship" relationship="viewControllers" id="jMb-T9-ztp"/>
+                        <segue destination="tnr-Gl-rLa" kind="relationship" relationship="viewControllers" id="lHt-La-gTf"/>
+                        <segue destination="dMh-QZ-TyM" kind="relationship" relationship="viewControllers" id="HuF-cL-VXN"/>
+                        <segue destination="Oah-1U-Nss" kind="relationship" relationship="viewControllers" id="E5F-kZ-7mh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhi-K4-fxg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176" y="-772"/>
+        </scene>
+        <!--Welcome to Swift-->
+        <scene sceneID="g55-Vf-zhA">
+            <objects>
+                <viewController id="f6S-1b-xVe" customClass="WelcomeViewController" customModule="TheSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iXN-8L-ITH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SWIFT 5.7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVl-Sc-fcU">
+                                <rect key="frame" x="16" y="163.33333333333334" width="361" height="15.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bay-Yl-djt">
+                                <rect key="frame" x="35" y="381.33333333333331" width="323" height="169.99999999999994"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-Pi-MlF">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="50"/>
+                                        <color key="backgroundColor" red="0.93725490570000003" green="0.63921570780000003" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1bZ-Vc-O7I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="About Swift"/>
+                                        <connections>
+                                            <action selector="aboutSwiftButtonTapped:" destination="f6S-1b-xVe" eventType="touchUpInside" id="nAC-V5-35s"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcH-RN-Qiz">
+                                        <rect key="frame" x="0.0" y="60" width="323" height="50"/>
+                                        <color key="backgroundColor" red="0.92549019607843142" green="0.4823529411764706" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ksK-5R-hdr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Version Compatibility"/>
+                                        <connections>
+                                            <action selector="versionCompatibilityButtonTapped:" destination="f6S-1b-xVe" eventType="touchUpInside" id="1Al-a9-omI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yV6-Lz-nob">
+                                        <rect key="frame" x="0.0" y="120" width="323" height="50"/>
+                                        <color key="backgroundColor" red="0.91764706370000004" green="0.33725491169999999" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cF1-bJ-FZr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="A Swift Tour"/>
+                                        <connections>
+                                            <action selector="swiftTourButtonTapped:" destination="f6S-1b-xVe" eventType="touchUpInside" id="hIP-Gf-uFA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PO7-aL-yHo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EVl-Sc-fcU" firstAttribute="top" secondItem="PO7-aL-yHo" secondAttribute="top" id="0am-fc-j7h"/>
+                            <constraint firstItem="EVl-Sc-fcU" firstAttribute="leading" secondItem="PO7-aL-yHo" secondAttribute="leading" constant="16" id="IiK-56-AAO"/>
+                            <constraint firstItem="Bay-Yl-djt" firstAttribute="centerX" secondItem="PO7-aL-yHo" secondAttribute="centerX" id="ORX-nf-Bkc"/>
+                            <constraint firstItem="Bay-Yl-djt" firstAttribute="centerY" secondItem="PO7-aL-yHo" secondAttribute="centerY" id="dXj-0h-9yn"/>
+                            <constraint firstItem="Bay-Yl-djt" firstAttribute="leading" secondItem="PO7-aL-yHo" secondAttribute="leading" constant="35" id="ddd-GY-9b6"/>
+                            <constraint firstItem="EVl-Sc-fcU" firstAttribute="centerX" secondItem="PO7-aL-yHo" secondAttribute="centerX" id="mFn-DI-dBU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome to Swift" id="ldw-rA-uce"/>
+                    <connections>
+                        <outlet property="aboutSwiftButton" destination="fOm-Pi-MlF" id="hhp-eE-fQu"/>
+                        <outlet property="swiftTourButton" destination="yV6-Lz-nob" id="S2h-Zl-KAz"/>
+                        <outlet property="versionCompatibilityButton" destination="lcH-RN-Qiz" id="m2r-eo-YBn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qT5-vt-AHJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1053" y="702"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LdN-zz-LKf">
+            <objects>
+                <viewController id="tnr-Gl-rLa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dCT-vz-kVq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9yK-VK-YC4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="9JG-o9-uuq">
+                        <imageReference key="image" image="book" catalog="system"/>
+                        <imageReference key="selectedImage" image="book.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.87058818339999999" green="0.36470589040000001" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBn-S9-1rh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686.25954198473278" y="-37.323943661971832"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iI4-ka-JUx">
+            <objects>
+                <viewController id="dMh-QZ-TyM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oEJ-3h-Bbp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hI7-sG-7HD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Oil-og-gE8">
+                        <imageReference key="image" image="doc" catalog="system"/>
+                        <imageReference key="selectedImage" image="doc.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.87058818339999999" green="0.36470589040000001" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gU-T5-2en" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489.3129770992366" y="-37.323943661971832"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sAi-Cv-gHo">
+            <objects>
+                <viewController id="Oah-1U-Nss" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xfC-iR-RGd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0wY-HY-Pjd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="qTL-pN-LQd">
+                        <imageReference key="image" image="newspaper" catalog="system"/>
+                        <imageReference key="selectedImage" image="newspaper.fill" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.87058818339999999" green="0.36470589040000001" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IOG-EY-kMP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2266.4122137404579" y="-37.323943661971832"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tul-9s-toX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1nK-rI-bNY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="ngH-8E-vpJ">
+                        <imageReference key="image" image="swift" catalog="system"/>
+                        <imageReference key="selectedImage" image="swift" catalog="system" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.87058818339999999" green="0.36470589040000001" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="KkZ-iD-Tem">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f6S-1b-xVe" kind="relationship" relationship="rootViewController" id="QQV-P1-bsU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QBC-QX-gGR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1051.145038167939" y="-37.323943661971832"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
+        <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="doc.fill" catalog="system" width="115" height="128"/>
+        <image name="newspaper" catalog="system" width="128" height="111"/>
+        <image name="newspaper.fill" catalog="system" width="128" height="112"/>
+        <image name="swift" catalog="system" width="128" height="108"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Version Compatibility View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="VersionCompatibilityViewController" id="Y6W-OH-hqX" customClass="VersionCompatibilityViewController" customModule="TheSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9B-Cx-ccO">
+                                <rect key="frame" x="0.0" y="59" width="393" height="857"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPx-4p-R1c" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="870.33333333333337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJD-iM-egn">
+                                                <rect key="frame" x="16" y="30" width="361" height="203"/>
+                                                <string key="text">This book describes Swift 5.7, the default version of Swift that’s included in Xcode 14. You can use Xcode 14 to build targets that are written in either Swift 5.7, Swift 4.2, or Swift 4.
+
+When you use Xcode 14 to build Swift 4 and Swift 4.2 code, most Swift 5.7 functionality is available. That said, the following changes are available only to code that uses Swift 5.7 or later:</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2qJ-Fs-1Xo">
+                                                <rect key="frame" x="30" y="263" width="333" height="263.33333333333326"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gcv-7B-Syo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="304" height="40.666666666666664"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p33-hZ-Wdg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="7.666666666666667" height="20.333333333333332"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Functions that return an opaque type require the Swift 5.1 runtime." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bil-py-3Ws">
+                                                                <rect key="frame" x="17.666666666666657" y="0.0" width="286.33333333333337" height="40.666666666666664"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hIY-AS-iGd">
+                                                        <rect key="frame" x="0.0" y="70.666666666666686" width="332" height="61"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zg-WD-3Dw">
+                                                                <rect key="frame" x="0.0" y="0.0" width="7.666666666666667" height="20.333333333333332"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The try? expression doesn’t introduce an extra level of optionality to expressions that already return optionals." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMI-qE-qNB">
+                                                                <rect key="frame" x="17.666666666666657" y="0.0" width="314.33333333333337" height="61"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xuf-h3-zvQ">
+                                                        <rect key="frame" x="0.0" y="161.66666666666669" width="331.66666666666669" height="101.66666666666669"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Q4-BL-F6v">
+                                                                <rect key="frame" x="0.0" y="0.0" width="7.666666666666667" height="20.333333333333332"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EK0-ZS-aVf">
+                                                                <rect key="frame" x="17.666666666666657" y="0.0" width="314" height="101.66666666666667"/>
+                                                                <string key="text">Large integer literal initialization expressions are inferred to be of the correct integer type. For example, UInt64(0xffff_ffff_ffff_ffff) evaluates to the correct value rather than overflowing.</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROJ-2a-O0d">
+                                                <rect key="frame" x="16" y="576.33333333333337" width="361" height="264"/>
+                                                <string key="text">Concurrency requires Swift 5.7 or later, and a version of the Swift standard library that provides the corresponding concurrency types. On Apple platforms, set a deployment target of at least iOS 15, macOS 12, tvOS 15, or watchOS 8.0.
+
+A target written in Swift 5.7 can depend on a target that’s written in Swift 4.2 or Swift 4, and vice versa. This means, if you have a large project that’s divided into multiple frameworks, you can migrate your code from Swift 4 to Swift 5.7 one framework at a time.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ROJ-2a-O0d" firstAttribute="top" secondItem="2qJ-Fs-1Xo" secondAttribute="bottom" constant="50" id="4hb-vn-7k5"/>
+                                            <constraint firstItem="YJD-iM-egn" firstAttribute="leading" secondItem="YPx-4p-R1c" secondAttribute="leading" constant="16" id="E08-Km-cVf"/>
+                                            <constraint firstItem="ROJ-2a-O0d" firstAttribute="centerX" secondItem="YPx-4p-R1c" secondAttribute="centerX" id="OfD-pa-o52"/>
+                                            <constraint firstItem="2qJ-Fs-1Xo" firstAttribute="centerX" secondItem="YPx-4p-R1c" secondAttribute="centerX" id="Otb-wc-Qmp"/>
+                                            <constraint firstItem="2qJ-Fs-1Xo" firstAttribute="top" secondItem="YJD-iM-egn" secondAttribute="bottom" constant="30" id="SgM-Dr-kpq"/>
+                                            <constraint firstItem="ROJ-2a-O0d" firstAttribute="leading" secondItem="YJD-iM-egn" secondAttribute="leading" id="U0Q-eg-4xi"/>
+                                            <constraint firstAttribute="bottom" secondItem="ROJ-2a-O0d" secondAttribute="bottom" constant="30" id="ieL-V7-KeQ"/>
+                                            <constraint firstItem="YJD-iM-egn" firstAttribute="top" secondItem="YPx-4p-R1c" secondAttribute="top" constant="30" id="jHh-65-jqM"/>
+                                            <constraint firstItem="2qJ-Fs-1Xo" firstAttribute="leading" secondItem="YPx-4p-R1c" secondAttribute="leading" constant="30" id="pDj-Hw-kE2"/>
+                                            <constraint firstItem="YJD-iM-egn" firstAttribute="centerX" secondItem="YPx-4p-R1c" secondAttribute="centerX" id="ty0-ef-XIQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YPx-4p-R1c" firstAttribute="width" secondItem="QXo-pu-0DP" secondAttribute="width" id="EUK-kX-w8N"/>
+                                    <constraint firstItem="YPx-4p-R1c" firstAttribute="leading" secondItem="4HF-cJ-gai" secondAttribute="leading" id="MLi-4k-sXQ"/>
+                                    <constraint firstItem="YPx-4p-R1c" firstAttribute="trailing" secondItem="4HF-cJ-gai" secondAttribute="trailing" id="OCn-2P-a9s"/>
+                                    <constraint firstItem="YPx-4p-R1c" firstAttribute="bottom" secondItem="4HF-cJ-gai" secondAttribute="bottom" id="gjq-Qd-s4V"/>
+                                    <constraint firstItem="YPx-4p-R1c" firstAttribute="top" secondItem="4HF-cJ-gai" secondAttribute="top" id="m0r-ns-sNL"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4HF-cJ-gai"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="QXo-pu-0DP"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M9B-Cx-ccO" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="3fm-qX-Xyb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="leading" secondItem="M9B-Cx-ccO" secondAttribute="leading" id="PaF-Yh-EfI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="M9B-Cx-ccO" secondAttribute="bottom" id="oPG-cy-ybR"/>
+                            <constraint firstItem="M9B-Cx-ccO" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="uRC-9b-8xW"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="950"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

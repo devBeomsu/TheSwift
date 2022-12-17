@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Swift View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AboutSwiftViewController" id="Y6W-OH-hqX" customClass="AboutSwiftViewController" customModule="TheSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hGy-2J-41B">
+                                <rect key="frame" x="0.0" y="59" width="393" height="1407"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlI-8r-CYa" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1414.6666666666667"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDn-pp-aJN">
+                                                <rect key="frame" x="16" y="30" width="361" height="515.66666666666663"/>
+                                                <mutableString key="text">Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.
+
+Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.
+
+Swift defines away large classes of common programming errors by adopting modern programming patterns:</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <mutableString key="userLabel">Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.  Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.  Swift defines away large classes of common programming errors by adopting modern programming patterns:</mutableString>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-sw-rVi">
+                                                <rect key="frame" x="30" y="595.66666666666663" width="333" height="333"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Variables are always initialized before use." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ij-qs-10N">
+                                                        <rect key="frame" x="0.0" y="0.0" width="330.33333333333331" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Array indices are checked for out-of-bounds errors." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffd-mK-knX">
+                                                        <rect key="frame" x="0.0" y="50.333333333333371" width="292.66666666666669" height="40.666666666666657"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Integers are checked for overflow." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etc-oB-LNe">
+                                                        <rect key="frame" x="0.0" y="120.99999999999999" width="269.66666666666669" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Optionals ensure that nil values are handled explicitly." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZO-4T-YRS">
+                                                        <rect key="frame" x="0.0" y="171.33333333333337" width="282.33333333333331" height="40.666666666666657"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Memory is managed automatically." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28s-6k-lc6">
+                                                        <rect key="frame" x="0.0" y="242" width="275.33333333333331" height="20.333333333333314"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Error handling allows controlled recovery from unexpected failures." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCz-cG-pNx">
+                                                        <rect key="frame" x="0.0" y="292.33333333333337" width="325.66666666666669" height="40.666666666666686"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-cl-7gH">
+                                                <rect key="frame" x="16" y="978.66666666666674" width="361" height="406"/>
+                                                <mutableString key="text">Swift code is compiled and optimized to get the most out of modern hardware. The syntax and standard library have been designed based on the guiding principle that the obvious way to write your code should also perform the best. Its combination of safety and speed make Swift an excellent choice for everything from “Hello, world!” to an entire operating system.
+
+Swift combines powerful type inference and pattern matching with a modern, lightweight syntax, allowing complex ideas to be expressed in a clear and concise manner. As a result, code is not just easier to write, but easier to read and maintain as well.
+
+Swift has been years in the making, and it continues to evolve with new features and capabilities. Our goals for Swift are ambitious. We can’t wait to see what you create with it.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="xuZ-cl-7gH" firstAttribute="top" secondItem="EXr-sw-rVi" secondAttribute="bottom" constant="50" id="E26-2T-vT4"/>
+                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="leading" secondItem="qlI-8r-CYa" secondAttribute="leading" constant="30" id="Fo0-Yz-BhB"/>
+                                            <constraint firstItem="xuZ-cl-7gH" firstAttribute="leading" secondItem="FDn-pp-aJN" secondAttribute="leading" id="MBx-f8-sxG"/>
+                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="NVP-w3-cVe"/>
+                                            <constraint firstItem="xuZ-cl-7gH" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="R3j-WQ-bgn"/>
+                                            <constraint firstItem="FDn-pp-aJN" firstAttribute="leading" secondItem="qlI-8r-CYa" secondAttribute="leading" constant="16" id="fTK-De-cBt"/>
+                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="top" secondItem="FDn-pp-aJN" secondAttribute="bottom" constant="50" id="hCv-cE-DQ7"/>
+                                            <constraint firstItem="FDn-pp-aJN" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="jnT-Ch-qNd"/>
+                                            <constraint firstItem="FDn-pp-aJN" firstAttribute="top" secondItem="qlI-8r-CYa" secondAttribute="top" constant="30" id="ojY-wf-P01"/>
+                                            <constraint firstAttribute="bottom" secondItem="xuZ-cl-7gH" secondAttribute="bottom" constant="30" id="vQO-va-WsP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qlI-8r-CYa" firstAttribute="trailing" secondItem="X2K-Tf-279" secondAttribute="trailing" id="4aT-nW-ENf"/>
+                                    <constraint firstItem="qlI-8r-CYa" firstAttribute="width" secondItem="D5G-cV-eUi" secondAttribute="width" id="Fhw-DB-cbA"/>
+                                    <constraint firstItem="qlI-8r-CYa" firstAttribute="leading" secondItem="X2K-Tf-279" secondAttribute="leading" id="Kr0-ZX-e57"/>
+                                    <constraint firstItem="qlI-8r-CYa" firstAttribute="top" secondItem="X2K-Tf-279" secondAttribute="top" id="T4Z-wk-KwF"/>
+                                    <constraint firstItem="qlI-8r-CYa" firstAttribute="bottom" secondItem="X2K-Tf-279" secondAttribute="bottom" id="gdf-k0-auA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="X2K-Tf-279"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="D5G-cV-eUi"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="leading" secondItem="hGy-2J-41B" secondAttribute="leading" id="SPX-WP-WFB"/>
+                            <constraint firstItem="hGy-2J-41B" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="TOL-vz-vnU"/>
+                            <constraint firstItem="hGy-2J-41B" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="uKb-tT-xrx"/>
+                            <constraint firstItem="hGy-2J-41B" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="vcU-6L-puJ"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
