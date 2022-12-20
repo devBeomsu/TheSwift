@@ -9,9 +9,10 @@ import UIKit
 
 class AboutSwiftViewController: UIViewController {
 
+    @IBOutlet weak var myLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationItem.title = "About Swift"
     }
 }
