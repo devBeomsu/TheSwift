@@ -22,17 +22,17 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="4141"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAP-bb-wlM" userLabel="Container View">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="4179"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="4209"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKU-ku-aLc">
-                                                <rect key="frame" x="16" y="0.0" width="361" height="101.66666666666667"/>
+                                                <rect key="frame" x="16" y="30.000000000000007" width="361" height="101.66666666666669"/>
                                                 <string key="text">Use if and switch to make conditionals, and use for-in, while, and repeat-while to make loops. Parentheses around the condition or loop variable are optional. Braces around the body are required.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYC-kQ-Skx" userLabel="Code">
-                                                <rect key="frame" x="16" y="131.66666666666666" width="361" height="344.33333333333337"/>
+                                                <rect key="frame" x="16" y="161.66666666666666" width="361" height="344.33333333333337"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-ia-HV0">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="197" height="20.333333333333329"/>
@@ -143,7 +143,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gv-SP-qJ8">
-                                                        <rect key="frame" x="10" y="60.666666666666693" width="6.6666666666666679" height="20.333333333333336"/>
+                                                        <rect key="frame" x="10" y="60.666666666666664" width="6.6666666666666679" height="20.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -401,7 +401,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iZ-ic-yP1">
-                                                <rect key="frame" x="16" y="506.00000000000006" width="361" height="243.66666666666669"/>
+                                                <rect key="frame" x="16" y="536" width="361" height="243.66666666666663"/>
                                                 <string key="text">In an if statement, the conditional must be a Boolean expression—this means that code such as if score { ... } is an error, not an implicit comparison to zero.
 
 You can use if and let together to work with values that might be missing. These values are represented as optionals. An optional value either contains a value or contains nil to indicate that a value is missing. Write a question mark (?) after the type of a value to mark the value as optional.</string>
@@ -410,7 +410,7 @@ You can use if and let together to work with values that might be missing. These
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozg-47-cwp" userLabel="Code">
-                                                <rect key="frame" x="16" y="779.66666666666663" width="361" height="267.99999999999989"/>
+                                                <rect key="frame" x="16" y="809.66666666666663" width="361" height="267.99999999999989"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fD1-8q-PEP">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="306" height="20.333333333333329"/>
@@ -584,7 +584,7 @@ You can use if and let together to work with values that might be missing. These
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="p29-qY-xi3">
-                                                        <rect key="frame" x="10" y="161.66666666666674" width="193.66666666666666" height="20.333333333333343"/>
+                                                        <rect key="frame" x="10" y="161.66666666666663" width="193.66666666666666" height="20.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4r-b5-PD9">
                                                                 <rect key="frame" x="0.0" y="0.0" width="26" height="20.333333333333332"/>
@@ -736,7 +736,7 @@ You can use if and let together to work with values that might be missing. These
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zw9-Ho-GEj">
-                                                <rect key="frame" x="16" y="1052.6666666666667" width="361" height="98.333333333333258"/>
+                                                <rect key="frame" x="16" y="1082.6666666666667" width="361" height="98.333333333333258"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EeN-wc-W7T">
                                                         <rect key="frame" x="0.0" y="0.0" width="5" height="98.333333333333329"/>
@@ -775,7 +775,7 @@ You can use if and let together to work with values that might be missing. These
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2O-JJ-JVO">
-                                                <rect key="frame" x="16" y="1181" width="361" height="223.33333333333326"/>
+                                                <rect key="frame" x="16" y="1211" width="361" height="223.33333333333326"/>
                                                 <string key="text">If the optional value is nil, the conditional is false and the code in braces is skipped. Otherwise, the optional value is unwrapped and assigned to the constant after let, which makes the unwrapped value available inside the block of code.
 
 Another way to handle optional values is to provide a default value using the ?? operator. If the optional value is missing, the default value is used instead.</string>
@@ -784,7 +784,7 @@ Another way to handle optional values is to provide a default value using the ??
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Not-sS-FHg" userLabel="Code">
-                                                <rect key="frame" x="16" y="1434.3333333333333" width="361" height="141.66666666666674"/>
+                                                <rect key="frame" x="16" y="1464.3333333333333" width="361" height="141.66666666666674"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kak-IB-qz6">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="229.33333333333334" height="20.333333333333329"/>
@@ -986,13 +986,13 @@ Another way to handle optional values is to provide a default value using the ??
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can use a shorter spelling to unwrap a value, using the same name for that unwrapped value." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mM-OO-TPK">
-                                                <rect key="frame" x="16" y="1606" width="361" height="61"/>
+                                                <rect key="frame" x="16" y="1636" width="361" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F38-hf-I1Q" userLabel="Code">
-                                                <rect key="frame" x="16" y="1697" width="361" height="91"/>
+                                                <rect key="frame" x="16" y="1727" width="361" height="91"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="No2-0b-aP7">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="144.33333333333334" height="20.333333333333329"/>
@@ -1099,14 +1099,14 @@ Another way to handle optional values is to provide a default value using the ??
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUW-dr-1fl">
-                                                <rect key="frame" x="16" y="1818" width="361" height="61"/>
+                                                <rect key="frame" x="16" y="1848" width="361" height="61"/>
                                                 <string key="text">Switches support any kind of data and a wide variety of comparison operations—they aren’t limited to integers and tests for equality.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLu-BB-pCL" userLabel="Code">
-                                                <rect key="frame" x="16" y="1908.9999999999998" width="361" height="420.33333333333326"/>
+                                                <rect key="frame" x="16" y="1938.9999999999998" width="361" height="420.33333333333326"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="daI-7m-Ikb">
                                                         <rect key="frame" x="10.000000000000014" y="9.9999999999999982" width="241.33333333333337" height="20.333333333333329"/>
@@ -1161,7 +1161,7 @@ Another way to handle optional values is to provide a default value using the ??
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gec-Df-9vd">
-                                                        <rect key="frame" x="10" y="60.66666666666675" width="119" height="20.333333333333336"/>
+                                                        <rect key="frame" x="10" y="60.666666666666522" width="119" height="20.333333333333336"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="case" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvY-XL-5fn">
                                                                 <rect key="frame" x="0.0" y="0.0" width="38.333333333333336" height="20.333333333333332"/>
@@ -1575,7 +1575,7 @@ Another way to handle optional values is to provide a default value using the ??
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HG8-ot-nAD">
-                                                <rect key="frame" x="16" y="2334.3333333333335" width="361" height="80.333333333333485"/>
+                                                <rect key="frame" x="16" y="2364.3333333333335" width="361" height="80.333333333333485"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NiW-vw-Zfg">
                                                         <rect key="frame" x="0.0" y="0.0" width="5" height="80.333333333333329"/>
@@ -1614,7 +1614,7 @@ Another way to handle optional values is to provide a default value using the ??
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-oX-k0l">
-                                                <rect key="frame" x="16" y="2444.6666666666665" width="361" height="324.66666666666652"/>
+                                                <rect key="frame" x="16" y="2474.6666666666665" width="361" height="324.66666666666652"/>
                                                 <string key="text">Notice how let can be used in a pattern to assign the value that matched the pattern to a constant.
 
 After executing the code inside the switch case that matched, the program exits from the switch statement. Execution doesn’t continue to the next case, so you don’t need to explicitly break out of the switch at the end of each case’s code.
@@ -1625,7 +1625,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0R1-XB-EvO" userLabel="Code">
-                                                <rect key="frame" x="16" y="2799.3333333333335" width="361" height="420.33333333333348"/>
+                                                <rect key="frame" x="16" y="2829.3333333333335" width="361" height="420.33333333333348"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bu9-ZA-qrT">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="223.33333333333334" height="20.333333333333329"/>
@@ -2319,7 +2319,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saX-cO-l3S">
-                                                <rect key="frame" x="16" y="3224.6666666666665" width="361" height="80.333333333333485"/>
+                                                <rect key="frame" x="16" y="3254.6666666666665" width="361" height="80.333333333333485"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nat-HY-dos">
                                                         <rect key="frame" x="0.0" y="0.0" width="5" height="80.333333333333329"/>
@@ -2358,14 +2358,14 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mur-6E-oQ7">
-                                                <rect key="frame" x="16" y="3335" width="361" height="81.333333333333485"/>
+                                                <rect key="frame" x="16" y="3365" width="361" height="81.333333333333485"/>
                                                 <string key="text">Use while to repeat a block of code until a condition changes. The condition of a loop can be at the end instead, ensuring that the loop is run at least once.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m71-Vw-XIL" userLabel="Code">
-                                                <rect key="frame" x="16" y="3446.3333333333335" width="361" height="344"/>
+                                                <rect key="frame" x="16" y="3476.3333333333335" width="361" height="344"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FNI-Eh-f99">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="87" height="20.333333333333329"/>
@@ -2665,13 +2665,13 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can keep an index in a loop by using ..&lt; to make a range of indexes." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhF-1e-Dub">
-                                                <rect key="frame" x="16" y="3820.3333333333335" width="361" height="40.666666666666515"/>
+                                                <rect key="frame" x="16" y="3850.3333333333335" width="361" height="40.666666666666515"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gj6-hs-gw5" userLabel="Code">
-                                                <rect key="frame" x="16" y="3891" width="361" height="167"/>
+                                                <rect key="frame" x="16" y="3921" width="361" height="167"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I9T-EE-9KE">
                                                         <rect key="frame" x="10.000000000000007" y="9.9999999999999982" width="112.66666666666669" height="20.333333333333329"/>
@@ -2819,7 +2819,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="// Prints &quot;6&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4t-Tf-8Jm">
-                                                        <rect key="frame" x="10" y="136.66666666666652" width="91" height="20.333333333333343"/>
+                                                        <rect key="frame" x="10" y="136.66666666666697" width="91" height="20.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <color key="textColor" name="gray"/>
                                                         <nil key="highlightedColor"/>
@@ -2843,7 +2843,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use ..&lt; to make a range that omits its upper value, and use ... to make a range that includes both values." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gn-Iq-rVE">
-                                                <rect key="frame" x="16" y="4088" width="361" height="61"/>
+                                                <rect key="frame" x="16" y="4118" width="361" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2891,7 +2891,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
                                             <constraint firstItem="MKU-ku-aLc" firstAttribute="leading" secondItem="lAP-bb-wlM" secondAttribute="leading" constant="16" id="glf-cw-lHj"/>
                                             <constraint firstItem="nJ0-oX-k0l" firstAttribute="centerX" secondItem="HG8-ot-nAD" secondAttribute="centerX" id="hAf-tf-wD1"/>
                                             <constraint firstItem="uLu-BB-pCL" firstAttribute="top" secondItem="dUW-dr-1fl" secondAttribute="bottom" constant="30" id="hdy-id-wTc"/>
-                                            <constraint firstItem="MKU-ku-aLc" firstAttribute="top" secondItem="lAP-bb-wlM" secondAttribute="top" id="iab-Jh-s12"/>
+                                            <constraint firstItem="MKU-ku-aLc" firstAttribute="top" secondItem="lAP-bb-wlM" secondAttribute="top" constant="30" id="iab-Jh-s12"/>
                                             <constraint firstItem="0R1-XB-EvO" firstAttribute="centerX" secondItem="nJ0-oX-k0l" secondAttribute="centerX" id="jHb-Vc-xU7"/>
                                             <constraint firstItem="wYC-kQ-Skx" firstAttribute="top" secondItem="MKU-ku-aLc" secondAttribute="bottom" constant="30" id="jT9-RM-M6e"/>
                                             <constraint firstItem="Gj6-hs-gw5" firstAttribute="centerX" secondItem="LhF-1e-Dub" secondAttribute="centerX" id="kXt-m9-nvC"/>
@@ -2948,7 +2948,7 @@ You use for-in to iterate over items in a dictionary by providing a pair of name
             <color red="0.16078431372549021" green="0.16470588235294117" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="blue">
-            <color red="0.41960784313725491" green="0.87450980392156863" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.35294117647058826" green="0.74901960784313726" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="gray">
             <color red="0.49803921568627452" green="0.5490196078431373" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

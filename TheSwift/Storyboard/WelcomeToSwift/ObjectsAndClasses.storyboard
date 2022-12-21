@@ -22,17 +22,17 @@
                                 <rect key="frame" x="0.0" y="59" width="375" height="5441"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXY-N9-bDi" userLabel="Container View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="5415.666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="5445.666666666667"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZD-aL-uvI">
-                                                <rect key="frame" x="16" y="0.0" width="343" height="142.33333333333334"/>
+                                                <rect key="frame" x="16" y="30" width="343" height="142.33333333333334"/>
                                                 <string key="text">Use class followed by the class’s name to create a class. A property declaration in a class is written the same way as a constant or variable declaration, except that it’s in the context of a class. Likewise, method and function declarations are written the same way.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E4Z-qH-Vwz" userLabel="Code">
-                                                <rect key="frame" x="16" y="172.33333333333331" width="343" height="192.33333333333331"/>
+                                                <rect key="frame" x="16" y="202.33333333333331" width="343" height="192.33333333333331"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZsH-3K-1fu">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="118" height="20.333333333333329"/>
@@ -58,7 +58,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KLb-S4-hif">
-                                                        <rect key="frame" x="39.999999999999986" y="35.333333333333343" width="199.66666666666663" height="20.333333333333329"/>
+                                                        <rect key="frame" x="39.999999999999986" y="35.333333333333371" width="199.66666666666663" height="20.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yz-ap-Bxn">
                                                                 <rect key="frame" x="0.0" y="0.0" width="26" height="20.333333333333332"/>
@@ -87,7 +87,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="uM8-9i-D1U">
-                                                        <rect key="frame" x="40" y="60.666666666666664" width="287.33333333333331" height="20.333333333333336"/>
+                                                        <rect key="frame" x="40" y="60.666666666666693" width="287.33333333333331" height="20.333333333333336"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="func " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-9Y-1fV">
                                                                 <rect key="frame" x="0.0" y="0.0" width="40.666666666666664" height="20.333333333333332"/>
@@ -122,7 +122,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="UEG-Wi-imZ">
-                                                        <rect key="frame" x="70.000000000000014" y="85.999999999999972" width="167.33333333333337" height="20.333333333333329"/>
+                                                        <rect key="frame" x="70.000000000000014" y="86" width="167.33333333333337" height="20.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="return " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNq-Tf-Iny">
                                                                 <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="20.333333333333332"/>
@@ -139,7 +139,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="coH-QD-1UI">
-                                                        <rect key="frame" x="125.66666666666664" y="111.33333333333334" width="200.33333333333337" height="20.333333333333343"/>
+                                                        <rect key="frame" x="125.66666666666664" y="111.33333333333337" width="200.33333333333337" height="20.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="\(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRa-7L-RFe">
                                                                 <rect key="frame" x="0.0" y="0.0" width="11.333333333333334" height="20.333333333333332"/>
@@ -168,13 +168,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Nz-Ab-Ppw">
-                                                        <rect key="frame" x="40" y="136.66666666666666" width="6.6666666666666643" height="20.333333333333343"/>
+                                                        <rect key="frame" x="40" y="136.66666666666669" width="6.6666666666666643" height="20.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnY-PD-OhD">
-                                                        <rect key="frame" x="10" y="161.99999999999997" width="6.6666666666666679" height="20.333333333333343"/>
+                                                        <rect key="frame" x="10" y="162" width="6.6666666666666679" height="20.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -200,7 +200,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KG2-Q3-2gz">
-                                                <rect key="frame" x="16" y="369.66666666666669" width="343" height="80.333333333333314"/>
+                                                <rect key="frame" x="16" y="399.66666666666669" width="343" height="80.333333333333314"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q2J-GU-bvg">
                                                         <rect key="frame" x="0.0" y="0.0" width="5" height="80.333333333333329"/>
@@ -239,14 +239,14 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBw-x7-8QZ">
-                                                <rect key="frame" x="16" y="479.99999999999994" width="343" height="81.333333333333314"/>
+                                                <rect key="frame" x="16" y="509.99999999999994" width="343" height="81.333333333333314"/>
                                                 <string key="text">Create an instance of a class by putting parentheses after the class name. Use dot syntax to access the properties and methods of the instance.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wxt-5q-Cdt" userLabel="Code">
-                                                <rect key="frame" x="16" y="591.33333333333337" width="343" height="116.33333333333337"/>
+                                                <rect key="frame" x="16" y="621.33333333333337" width="343" height="116.33333333333337"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QeI-vu-LEQ">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="174.66666666666666" height="20.333333333333329"/>
@@ -311,8 +311,8 @@
                                                             </label>
                                                         </subviews>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shape.simpleDescription()" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfQ-SA-qpP">
-                                                        <rect key="frame" x="41" y="86" width="206" height="20.333333333333329"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shape.simpleDescription( )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfQ-SA-qpP">
+                                                        <rect key="frame" x="41.000000000000014" y="86" width="210.33333333333337" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -332,14 +332,14 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz8-c8-6ad">
-                                                <rect key="frame" x="16" y="737.66666666666663" width="343" height="81.333333333333371"/>
+                                                <rect key="frame" x="16" y="767.66666666666663" width="343" height="81.333333333333371"/>
                                                 <string key="text">This version of the Shape class is missing something important: an initializer to set up the class when an instance is created. Use init to create one.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4q-xX-6QY" userLabel="Code">
-                                                <rect key="frame" x="16" y="849" width="343" height="343.66666666666674"/>
+                                                <rect key="frame" x="16" y="878.99999999999989" width="343" height="343.66666666666663"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZD8-db-xSR">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="174" height="20.333333333333329"/>
@@ -632,20 +632,20 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwf-Ui-e6h">
-                                                <rect key="frame" x="16" y="1222.6666666666667" width="343" height="527.66666666666674"/>
-                                                <mutableString key="text">Notice how self is used to distinguish the name property from the name argument to the initializer. The arguments to the initializer are passed like a function call when you create an instance of the class. Every property needs a value assigned—either in its declaration (as with numberOfSides) or in the initializer (as with name).
+                                                <rect key="frame" x="16" y="1252.6666666666667" width="343" height="527.66666666666674"/>
+                                                <string key="text">Notice how self is used to distinguish the name property from the name argument to the initializer. The arguments to the initializer are passed like a function call when you create an instance of the class. Every property needs a value assigned—either in its declaration (as with numberOfSides) or in the initializer (as with name).
 
 Use deinit to create a deinitializer if you need to perform some cleanup before the object is deallocated.
 
 Subclasses include their superclass name after their class name, separated by a colon. There’s no requirement for classes to subclass any standard root class, so you can include or omit a superclass as needed.
 
-Methods on a subclass that override the superclass’s implementation are marked with override—overriding a method by accident, without override, is detected by the compiler as an error. The compiler also detects methods with override that don’t actually override any method in the superclass.</mutableString>
+Methods on a subclass that override the superclass’s implementation are marked with override—overriding a method by accident, without override, is detected by the compiler as an error. The compiler also detects methods with override that don’t actually override any method in the superclass.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nt5-Jg-sQP" userLabel="Code">
-                                                <rect key="frame" x="16" y="1780.333333333333" width="343" height="622"/>
+                                                <rect key="frame" x="16" y="1810.333333333333" width="343" height="622"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="BEV-IZ-ODs">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="228.66666666666666" height="20.333333333333329"/>
@@ -671,7 +671,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nlo-B9-FQK">
-                                                        <rect key="frame" x="40" y="35.333333333333485" width="189" height="20.333333333333329"/>
+                                                        <rect key="frame" x="40" y="35.333333333333485" width="185" height="20.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="var " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkD-oe-YVb">
                                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="20.333333333333332"/>
@@ -679,20 +679,20 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                                 <color key="textColor" name="pink"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sideLength " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyE-6p-gko" userLabel="sideLength">
-                                                                <rect key="frame" x="31" y="0.0" width="91" height="20.333333333333332"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sideLength" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyE-6p-gko" userLabel="sideLength">
+                                                                <rect key="frame" x="31" y="0.0" width="87" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" name="blue"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=": " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sk7-E9-ufF">
-                                                                <rect key="frame" x="123" y="0.0" width="9.3333333333333428" height="20.333333333333332"/>
+                                                                <rect key="frame" x="119" y="0.0" width="9.3333333333333428" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ez-Hd-Y8c">
-                                                                <rect key="frame" x="133.33333333333334" y="0.0" width="55.666666666666657" height="20.333333333333332"/>
+                                                                <rect key="frame" x="129.33333333333334" y="0.0" width="55.666666666666657" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" name="lightPurple"/>
                                                                 <nil key="highlightedColor"/>
@@ -834,7 +834,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="C4N-mQ-g8G">
-                                                        <rect key="frame" x="67.000000000000014" y="187" width="153.33333333333337" height="20.333333333333343"/>
+                                                        <rect key="frame" x="67.000000000000014" y="187.00000000000023" width="153.33333333333337" height="20.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="numberOfSides = " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwj-t8-Rz7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="141.33333333333334" height="20.333333333333332"/>
@@ -1101,7 +1101,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wql-vz-j3y">
-                                                        <rect key="frame" x="10" y="566.33333333333326" width="83" height="20.333333333333371"/>
+                                                        <rect key="frame" x="10" y="566.33333333333326" width="87.333333333333329" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sD0-cJ-Rbl">
                                                                 <rect key="frame" x="0.0" y="0.0" width="30.333333333333332" height="20.333333333333332"/>
@@ -1109,8 +1109,8 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                                 <color key="textColor" name="purple"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".area()" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZF-vX-Bea">
-                                                                <rect key="frame" x="31.333333333333339" y="0.0" width="51.666666666666657" height="20.333333333333332"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".area( )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZF-vX-Bea">
+                                                                <rect key="frame" x="31.333333333333336" y="0.0" width="56.000000000000007" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -1118,7 +1118,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="U0o-zb-1Gc">
-                                                        <rect key="frame" x="10" y="591.66666666666674" width="190" height="20.333333333333371"/>
+                                                        <rect key="frame" x="10" y="591.66666666666674" width="194.33333333333334" height="20.333333333333371"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-Sf-d6n">
                                                                 <rect key="frame" x="0.0" y="0.0" width="30.333333333333332" height="20.333333333333332"/>
@@ -1126,8 +1126,8 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                                 <color key="textColor" name="purple"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".simpleDescription()" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5L-u8-QL9">
-                                                                <rect key="frame" x="31.333333333333329" y="0.0" width="158.66666666666669" height="20.333333333333332"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".simpleDescription( )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5L-u8-QL9">
+                                                                <rect key="frame" x="31.333333333333343" y="0.0" width="163" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -1184,7 +1184,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdO-T6-eJ7">
-                                                <rect key="frame" x="16" y="2407.3333333333335" width="343" height="134"/>
+                                                <rect key="frame" x="16" y="2437.3333333333335" width="343" height="134"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3p-va-IQ6">
                                                         <rect key="frame" x="0.0" y="0.0" width="5" height="134"/>
@@ -1204,7 +1204,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYo-a9-qGx">
                                                                 <rect key="frame" x="0.0" y="24.333333333333037" width="313" height="89.666666666666686"/>
-                                                                <string key="text">Make another subclass of NamedShape called Circle that takes a radius and a name as arguments to its initializer. Implement an area() and a simpleDescription() method on the Circle class.</string>
+                                                                <string key="text">Make another subclass of NamedShape called Circle that takes a radius and a name as arguments to its initializer. Implement an area( ) and a simpleDescription( ) method on the Circle class.</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1224,13 +1224,13 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In addition to simple properties that are stored, properties can have a getter and a setter." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oG-gC-Gwz">
-                                                <rect key="frame" x="16" y="2571.3333333333335" width="343" height="61"/>
+                                                <rect key="frame" x="16" y="2601.3333333333335" width="343" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljU-ut-CN7" userLabel="Code">
-                                                <rect key="frame" x="16" y="2662.3333333333335" width="343" height="799.33333333333348"/>
+                                                <rect key="frame" x="16" y="2692.3333333333335" width="343" height="799.33333333333348"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="oCy-Wo-JTw">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="317.66666666666669" height="20.333333333333329"/>
@@ -1705,7 +1705,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-lY-Zdh">
                                                         <rect key="frame" x="41" y="642.33333333333303" width="150.33333333333334" height="20.333333333333371"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9Z-Ph-VcI">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9Z-Ph-VcI">
                                                                 <rect key="frame" x="0.0" y="0.0" width="52.333333333333336" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1897,7 +1897,7 @@ Methods on a subclass that override the superclass’s implementation are marked
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf0-UU-i7D">
-                                                <rect key="frame" x="16" y="3491.6666666666665" width="343" height="142.33333333333348"/>
+                                                <rect key="frame" x="16" y="3521.6666666666665" width="343" height="142.33333333333348"/>
                                                 <string key="text">In the setter for perimeter, the new value has the implicit name newValue. You can provide an explicit name in parentheses after set.
 
 Notice that the initializer for the EquilateralTriangle class has three different steps:</string>
@@ -1906,7 +1906,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="eXf-0d-scl">
-                                                <rect key="frame" x="46" y="3664" width="283" height="222.66666666666652"/>
+                                                <rect key="frame" x="46" y="3694" width="283" height="222.66666666666652"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Setting the value of properties that the subclass declares." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nK-Bj-dq7">
                                                         <rect key="frame" x="0.0" y="0.0" width="283" height="40.666666666666664"/>
@@ -1930,14 +1930,14 @@ Notice that the initializer for the EquilateralTriangle class has three differen
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlJ-cm-Yp7">
-                                                <rect key="frame" x="16" y="3916.6666666666665" width="343" height="182.66666666666652"/>
+                                                <rect key="frame" x="16" y="3946.6666666666665" width="343" height="182.66666666666652"/>
                                                 <string key="text">If you don’t need to compute the property but still need to provide code that’s run before and after setting a new value, use willSet and didSet. The code you provide is run any time the value changes outside of an initializer. For example, the class below ensures that the side length of its triangle is always the same as the side length of its square.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JG-q9-U9U" userLabel="Code">
-                                                <rect key="frame" x="16" y="4129.333333333333" width="343" height="851.66666666666697"/>
+                                                <rect key="frame" x="16" y="4159.333333333333" width="343" height="851.66666666666697"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Yff-rU-Lgq">
                                                         <rect key="frame" x="10" y="9.9999999999999982" width="208" height="20.333333333333329"/>
@@ -2266,7 +2266,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="07b-3O-GOb">
                                                         <rect key="frame" x="40" y="515.33333333333394" width="224" height="20.333333333333371"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-B5-Bsy">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-B5-Bsy">
                                                                 <rect key="frame" x="0.0" y="0.0" width="52.333333333333336" height="20.333333333333332"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2562,14 +2562,14 @@ Notice that the initializer for the EquilateralTriangle class has three differen
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-N5-zN0">
-                                                <rect key="frame" x="16" y="5011" width="343" height="203"/>
+                                                <rect key="frame" x="16" y="5041" width="343" height="203"/>
                                                 <string key="text">When working with optional values, you can write ? before operations like methods, properties, and subscripting. If the value before the ? is nil, everything after the ? is ignored and the value of the whole expression is nil. Otherwise, the optional value is unwrapped, and everything after the ? acts on the unwrapped value. In both cases, the value of the whole expression is an optional value.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTg-b3-8rR" userLabel="Code">
-                                                <rect key="frame" x="16" y="5244" width="343" height="141.66666666666697"/>
+                                                <rect key="frame" x="16" y="5274" width="343" height="141.66666666666697"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-Fp-mx3">
                                                         <rect key="frame" x="10.000000000000014" y="9.9999999999999982" width="238.33333333333337" height="20.333333333333329"/>
@@ -2705,7 +2705,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
                                             <constraint firstItem="eXf-0d-scl" firstAttribute="top" secondItem="qf0-UU-i7D" secondAttribute="bottom" constant="30" id="39d-H5-CvH"/>
                                             <constraint firstItem="yTg-b3-8rR" firstAttribute="top" secondItem="rLe-N5-zN0" secondAttribute="bottom" constant="30" id="52f-ZP-RhP"/>
                                             <constraint firstItem="Lz8-c8-6ad" firstAttribute="leading" secondItem="Wxt-5q-Cdt" secondAttribute="leading" id="7jB-jc-3ca"/>
-                                            <constraint firstItem="PZD-aL-uvI" firstAttribute="top" secondItem="xXY-N9-bDi" secondAttribute="top" id="ASx-Md-fZW"/>
+                                            <constraint firstItem="PZD-aL-uvI" firstAttribute="top" secondItem="xXY-N9-bDi" secondAttribute="top" constant="30" id="ASx-Md-fZW"/>
                                             <constraint firstItem="yTg-b3-8rR" firstAttribute="leading" secondItem="rLe-N5-zN0" secondAttribute="leading" id="AZ6-fo-dzE"/>
                                             <constraint firstItem="Nt5-Jg-sQP" firstAttribute="leading" secondItem="Mwf-Ui-e6h" secondAttribute="leading" id="Aa7-oC-sew"/>
                                             <constraint firstItem="hlJ-cm-Yp7" firstAttribute="leading" secondItem="qf0-UU-i7D" secondAttribute="leading" id="Bar-BO-cH7"/>
@@ -2793,7 +2793,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
             <color red="0.16078431372549021" green="0.16470588235294117" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="blue">
-            <color red="0.35269494122069422" green="0.7495473732925213" blue="0.867650612113402" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.35294117647058826" green="0.74901960784313726" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="gray">
             <color red="0.49803921568627452" green="0.5490196078431373" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2814,7 +2814,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
             <color red="0.66666666666666663" green="0.51372549019607838" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="strongBlue">
-            <color red="0.0" green="0.92083958588766979" blue="0.99924451112747192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.92156862745098034" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="swift">
             <color red="0.92156862745098034" green="0.31372549019607843" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
