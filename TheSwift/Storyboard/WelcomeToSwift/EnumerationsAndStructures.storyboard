@@ -2186,7 +2186,7 @@ Use struct to create a structure. Structures support many of the same behaviors 
                             <constraint firstItem="SPn-gT-Ja6" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Cwa-Wf-gzR"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="SPn-gT-Ja6" secondAttribute="top" id="LVY-a4-ax7"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="leading" secondItem="SPn-gT-Ja6" secondAttribute="leading" id="i0W-sK-xFx"/>
-                            <constraint firstItem="SPn-gT-Ja6" firstAttribute="bottom" secondItem="5EZ-qb-Rvc" secondAttribute="bottom" id="oFL-Ab-zHJ"/>
+                            <constraint firstItem="SPn-gT-Ja6" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="oFL-Ab-zHJ"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="375" height="4350"/>

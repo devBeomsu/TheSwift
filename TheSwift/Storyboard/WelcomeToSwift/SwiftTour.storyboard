@@ -19,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-w9-6zo">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="950"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="857"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-kJ-t8W">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="950"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-kJ-t8W" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="892.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijc-9h-0XD">
                                                 <rect key="frame" x="16" y="29.999999999999993" width="361" height="81.333333333333314"/>
@@ -74,9 +74,9 @@
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya1-yZ-EVD">
                                                 <rect key="frame" x="16" y="222.00000000000003" width="361" height="324.66666666666674"/>
-                                                <mutableString key="text">If you have written code in C or Objective-C, this syntax looks familiar to you—in Swift, this line of code is a complete program. You don’t need to import a separate library for functionality like input/output or string handling. Code written at global scope is used as the entry point for the program, so you don’t need a main() function. You also don’t need to write semicolons at the end of every statement.
+                                                <string key="text">If you have written code in C or Objective-C, this syntax looks familiar to you—in Swift, this line of code is a complete program. You don’t need to import a separate library for functionality like input/output or string handling. Code written at global scope is used as the entry point for the program, so you don’t need a main() function. You also don’t need to write semicolons at the end of every statement.
 
-This tour gives you enough information to start writing code in Swift by showing you how to accomplish a variety of programming tasks. Don’t worry if you don’t understand something—everything introduced in this tour is explained in detail in the rest of this book.</mutableString>
+This tour gives you enough information to start writing code in Swift by showing you how to accomplish a variety of programming tasks. Don’t worry if you don’t understand something—everything introduced in this tour is explained in detail in the rest of this book.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -157,11 +157,11 @@ This tour gives you enough information to start writing code in Swift by showing
                                             <constraint firstItem="8vD-TP-9lW" firstAttribute="centerX" secondItem="glQ-kJ-t8W" secondAttribute="centerX" id="WlE-WL-SfQ"/>
                                             <constraint firstItem="8vD-TP-9lW" firstAttribute="top" secondItem="13h-Oa-uch" secondAttribute="bottom" constant="20" id="YEx-0Y-MIt"/>
                                             <constraint firstItem="Ya1-yZ-EVD" firstAttribute="centerX" secondItem="glQ-kJ-t8W" secondAttribute="centerX" id="di5-Fu-Kg8"/>
-                                            <constraint firstAttribute="height" constant="950" id="iDr-jB-DT4"/>
                                             <constraint firstAttribute="trailing" secondItem="13h-Oa-uch" secondAttribute="trailing" id="kDo-QX-RRR"/>
                                             <constraint firstItem="13h-Oa-uch" firstAttribute="leading" secondItem="glQ-kJ-t8W" secondAttribute="leading" id="kFB-ct-K6W"/>
                                             <constraint firstItem="w9w-0x-YDn" firstAttribute="leading" secondItem="glQ-kJ-t8W" secondAttribute="leading" constant="30" id="lzM-fb-e1g"/>
                                             <constraint firstItem="13h-Oa-uch" firstAttribute="top" secondItem="Ya1-yZ-EVD" secondAttribute="bottom" constant="70" id="oqC-bn-g3C"/>
+                                            <constraint firstAttribute="bottom" secondItem="8vD-TP-9lW" secondAttribute="bottom" constant="30" id="qiA-id-lDN"/>
                                             <constraint firstItem="w9w-0x-YDn" firstAttribute="top" secondItem="ijc-9h-0XD" secondAttribute="bottom" constant="30" id="x89-0a-mgc"/>
                                             <constraint firstItem="fIt-rM-p2S" firstAttribute="bottom" secondItem="w9w-0x-YDn" secondAttribute="bottom" id="zuH-X6-xQh"/>
                                         </constraints>
@@ -181,8 +181,8 @@ This tour gives you enough information to start writing code in Swift by showing
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="nYo-w9-6zo" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="0p5-1B-8Yt"/>
-                            <constraint firstAttribute="bottom" secondItem="nYo-w9-6zo" secondAttribute="bottom" id="YCk-Tn-1F2"/>
+                            <constraint firstItem="nYo-w9-6zo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="0p5-1B-8Yt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="nYo-w9-6zo" secondAttribute="bottom" id="YCk-Tn-1F2"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nYo-w9-6zo" secondAttribute="trailing" id="gMg-Bx-irY"/>
                             <constraint firstItem="nYo-w9-6zo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pd6-r7-SZU"/>
                         </constraints>
