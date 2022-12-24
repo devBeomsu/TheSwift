@@ -14,17 +14,17 @@
             <objects>
                 <viewController storyboardIdentifier="AboutSwiftViewController" id="Y6W-OH-hqX" customClass="AboutSwiftViewController" customModule="TheSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hGy-2J-41B">
-                                <rect key="frame" x="0.0" y="59" width="393" height="1407"/>
+                                <rect key="frame" x="0.0" y="59" width="375" height="1907"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlI-8r-CYa" userLabel="Container View">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1414.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1497"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDn-pp-aJN">
-                                                <rect key="frame" x="16" y="30" width="361" height="515.66666666666663"/>
+                                                <rect key="frame" x="16" y="30" width="343" height="537.33333333333337"/>
                                                 <string key="text">Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.
 
 Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.
@@ -35,41 +35,41 @@ Swift defines away large classes of common programming errors by adopting modern
                                                 <nil key="highlightedColor"/>
                                                 <string key="userLabel">Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.  Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.  Swift defines away large classes of common programming errors by adopting modern programming patterns:</string>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-sw-rVi">
-                                                <rect key="frame" x="30" y="595.66666666666663" width="333" height="333"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="SPk-wA-UEP">
+                                                <rect key="frame" x="30" y="617.33333333333337" width="315" height="353.33333333333337"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Variables are always initialized before use." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ij-qs-10N">
-                                                        <rect key="frame" x="0.0" y="0.0" width="330.33333333333331" height="20.333333333333332"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Variables are always initialized before use." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aet-R0-weR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="245" height="40.666666666666664"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Array indices are checked for out-of-bounds errors." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffd-mK-knX">
-                                                        <rect key="frame" x="0.0" y="50.333333333333371" width="292.66666666666669" height="40.666666666666657"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Array indices are checked for out-of-bounds errors." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AxD-lC-Dxy">
+                                                        <rect key="frame" x="0.0" y="70.666666666666629" width="292.66666666666669" height="40.666666666666657"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Integers are checked for overflow." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etc-oB-LNe">
-                                                        <rect key="frame" x="0.0" y="120.99999999999999" width="269.66666666666669" height="20.333333333333329"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Integers are checked for overflow." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz3-Fr-FNh">
+                                                        <rect key="frame" x="0.0" y="141.33333333333326" width="269.66666666666669" height="20.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Optionals ensure that nil values are handled explicitly." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZO-4T-YRS">
-                                                        <rect key="frame" x="0.0" y="171.33333333333337" width="282.33333333333331" height="40.666666666666657"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Optionals ensure that nil values are handled explicitly." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8L-dl-dcX">
+                                                        <rect key="frame" x="0.0" y="191.66666666666663" width="282.33333333333331" height="40.666666666666657"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Memory is managed automatically." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28s-6k-lc6">
-                                                        <rect key="frame" x="0.0" y="242" width="275.33333333333331" height="20.333333333333314"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Memory is managed automatically." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8H-Ik-k0l">
+                                                        <rect key="frame" x="0.0" y="262.33333333333326" width="275.33333333333331" height="20.333333333333314"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Error handling allows controlled recovery from unexpected failures." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCz-cG-pNx">
-                                                        <rect key="frame" x="0.0" y="292.33333333333337" width="325.66666666666669" height="40.666666666666686"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Error handling allows controlled recovery from unexpected failures." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2j-Pv-oBs">
+                                                        <rect key="frame" x="0.0" y="312.66666666666663" width="264.33333333333331" height="40.666666666666686"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -77,7 +77,7 @@ Swift defines away large classes of common programming errors by adopting modern
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-cl-7gH">
-                                                <rect key="frame" x="16" y="978.66666666666674" width="361" height="406"/>
+                                                <rect key="frame" x="16" y="1020.6666666666669" width="343" height="446.33333333333337"/>
                                                 <string key="text">Swift code is compiled and optimized to get the most out of modern hardware. The syntax and standard library have been designed based on the guiding principle that the obvious way to write your code should also perform the best. Its combination of safety and speed make Swift an excellent choice for everything from “Hello, world!” to an entire operating system.
 
 Swift combines powerful type inference and pattern matching with a modern, lightweight syntax, allowing complex ideas to be expressed in a clear and concise manner. As a result, code is not just easier to write, but easier to read and maintain as well.
@@ -90,16 +90,16 @@ Swift has been years in the making, and it continues to evolve with new features
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="xuZ-cl-7gH" firstAttribute="top" secondItem="EXr-sw-rVi" secondAttribute="bottom" constant="50" id="E26-2T-vT4"/>
-                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="leading" secondItem="qlI-8r-CYa" secondAttribute="leading" constant="30" id="Fo0-Yz-BhB"/>
+                                            <constraint firstItem="SPk-wA-UEP" firstAttribute="centerX" secondItem="FDn-pp-aJN" secondAttribute="centerX" id="Cn6-wN-GAU"/>
                                             <constraint firstItem="xuZ-cl-7gH" firstAttribute="leading" secondItem="FDn-pp-aJN" secondAttribute="leading" id="MBx-f8-sxG"/>
-                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="NVP-w3-cVe"/>
                                             <constraint firstItem="xuZ-cl-7gH" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="R3j-WQ-bgn"/>
+                                            <constraint firstItem="xuZ-cl-7gH" firstAttribute="top" secondItem="SPk-wA-UEP" secondAttribute="bottom" constant="50" id="WyZ-V5-deL"/>
+                                            <constraint firstItem="SPk-wA-UEP" firstAttribute="leading" secondItem="qlI-8r-CYa" secondAttribute="leading" constant="30" id="bQr-Tu-o03"/>
                                             <constraint firstItem="FDn-pp-aJN" firstAttribute="leading" secondItem="qlI-8r-CYa" secondAttribute="leading" constant="16" id="fTK-De-cBt"/>
-                                            <constraint firstItem="EXr-sw-rVi" firstAttribute="top" secondItem="FDn-pp-aJN" secondAttribute="bottom" constant="50" id="hCv-cE-DQ7"/>
                                             <constraint firstItem="FDn-pp-aJN" firstAttribute="centerX" secondItem="qlI-8r-CYa" secondAttribute="centerX" id="jnT-Ch-qNd"/>
                                             <constraint firstItem="FDn-pp-aJN" firstAttribute="top" secondItem="qlI-8r-CYa" secondAttribute="top" constant="30" id="ojY-wf-P01"/>
                                             <constraint firstAttribute="bottom" secondItem="xuZ-cl-7gH" secondAttribute="bottom" constant="30" id="vQO-va-WsP"/>
+                                            <constraint firstItem="SPk-wA-UEP" firstAttribute="top" secondItem="FDn-pp-aJN" secondAttribute="bottom" constant="50" id="xxa-w2-c0E"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -123,7 +123,7 @@ Swift has been years in the making, and it continues to evolve with new features
                             <constraint firstItem="hGy-2J-41B" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="vcU-6L-puJ"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="393" height="1500"/>
+                    <size key="freeformSize" width="375" height="2000"/>
                     <connections>
                         <outlet property="myLabel" destination="FDn-pp-aJN" id="gw4-Zo-FEc"/>
                     </connections>

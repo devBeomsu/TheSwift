@@ -15,17 +15,17 @@
             <objects>
                 <viewController storyboardIdentifier="SwiftTourViewController" id="Y6W-OH-hqX" customClass="SwiftTourViewController" customModule="TheSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-w9-6zo">
-                                <rect key="frame" x="0.0" y="59" width="393" height="857"/>
+                                <rect key="frame" x="0.0" y="59" width="375" height="857"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-kJ-t8W" userLabel="Container View">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="892.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="933.33333333333337"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijc-9h-0XD">
-                                                <rect key="frame" x="16" y="29.999999999999993" width="361" height="81.333333333333314"/>
+                                                <rect key="frame" x="16" y="29.999999999999993" width="343" height="81.333333333333314"/>
                                                 <string key="text">Tradition suggests that the first program in a new language should print the words “Hello, world!” on the screen. In Swift, this can be done in a single line:</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -73,7 +73,7 @@
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya1-yZ-EVD">
-                                                <rect key="frame" x="16" y="222.00000000000003" width="361" height="324.66666666666674"/>
+                                                <rect key="frame" x="16" y="221.99999999999997" width="343" height="365.33333333333326"/>
                                                 <string key="text">If you have written code in C or Objective-C, this syntax looks familiar to you—in Swift, this line of code is a complete program. You don’t need to import a separate library for functionality like input/output or string handling. Code written at global scope is used as the entry point for the program, so you don’t need a main() function. You also don’t need to write semicolons at the end of every statement.
 
 This tour gives you enough information to start writing code in Swift by showing you how to accomplish a variety of programming tasks. Don’t worry if you don’t understand something—everything introduced in this tour is explained in detail in the rest of this book.</string>
@@ -82,7 +82,7 @@ This tour gives you enough information to start writing code in Swift by showing
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="13h-Oa-uch">
-                                                <rect key="frame" x="0.0" y="616.66666666666663" width="393" height="200"/>
+                                                <rect key="frame" x="0.0" y="657.33333333333337" width="375" height="200"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="xdF-mt-imw"/>
@@ -95,7 +95,7 @@ This tour gives you enough information to start writing code in Swift by showing
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SwiftTourCell" id="mP9-Ty-w5w" customClass="SwiftTourCell" customModule="TheSwift" customModuleProvider="target">
-                                                        <rect key="frame" x="23" y="0.0" width="347" height="177"/>
+                                                        <rect key="frame" x="14" y="0.0" width="347" height="177"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dHd-Pi-xyU">
                                                             <rect key="frame" x="0.0" y="0.0" width="347" height="177"/>
@@ -134,7 +134,7 @@ This tour gives you enough information to start writing code in Swift by showing
                                                 </cells>
                                             </collectionView>
                                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="9" translatesAutoresizingMaskIntoConstraints="NO" id="8vD-TP-9lW">
-                                                <rect key="frame" x="94.333333333333329" y="836.66666666666663" width="204.66666666666669" height="26"/>
+                                                <rect key="frame" x="85.333333333333329" y="877.33333333333337" width="204.66666666666669" height="26"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="26" id="dfX-cZ-rj1"/>
                                                 </constraints>
@@ -187,7 +187,7 @@ This tour gives you enough information to start writing code in Swift by showing
                             <constraint firstItem="nYo-w9-6zo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pd6-r7-SZU"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="393" height="950"/>
+                    <size key="freeformSize" width="375" height="950"/>
                     <connections>
                         <outlet property="collectionView" destination="13h-Oa-uch" id="fia-Zy-7cl"/>
                         <outlet property="pageControl" destination="8vD-TP-9lW" id="cna-VZ-5dV"/>
